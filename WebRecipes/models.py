@@ -6,7 +6,7 @@ class Ingredient(models.Model):
     quantity: int = models.PositiveIntegerField('Grams')
 
     def __str__(self):
-        return str(self.quantity) + "g" + self.name
+        return str(self.quantity) + "g " + self.name
     
 
 class Recipe(models.Model):
