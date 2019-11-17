@@ -27,7 +27,7 @@ class Migration(migrations.Migration):
                 ('dinner_guests', models.PositiveIntegerField()),
                 ('procedure', models.TextField(verbose_name='Instructions')),
                 ('publication_date', models.DateTimeField(verbose_name='Date Published')),
-                ('ingredients', models.ManyToManyField(to='WebRecipes.Ingredient')),
+                ('ingredients', models.ManyToManyField(to='recipes.Ingredient')),
             ],
         ),
     ]
