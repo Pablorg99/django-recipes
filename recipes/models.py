@@ -7,7 +7,7 @@ class Ingredient(models.Model):
 
     def __str__(self):
         return str(self.quantity) + "g " + self.name
-    
+
 
 class Recipe(models.Model):
     name: str = models.CharField(max_length=100)
