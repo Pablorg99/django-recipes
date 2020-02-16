@@ -16,7 +16,7 @@ Including another URL conf
 from django.contrib import admin
 from django.urls import path, include
 
-urlpatterns = [
+URL_PATTERNS = [
     path('admin/', admin.site.urls),
     path('api/', include('recipes.urls')),
 ]

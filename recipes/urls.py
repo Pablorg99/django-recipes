@@ -1,7 +1,7 @@
 from django.urls import path
 from . import views
 
-urlpatterns = [
+URL_PATTERNS = [
     path('recipes', views.ListRecipes.as_view()),
     path('recipe/<int:pk>/', views.DetailRecipe.as_view()),
     path('ingredients', views.ListIngredients.as_view()),
