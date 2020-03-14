@@ -1,0 +1,6 @@
+.dockerignore
+# Python
+venv/
+# Docker
+docker-compose.yml
+Dockerfile
