@@ -7,11 +7,11 @@ license = "GPL-3.0-or-later"
 
 [tool.poetry.dependencies]
 python = "^3.6"
-django = "2.2.10"
-django-cors-headers = "3.0.2"
-djangorestframework = "3.10.1"
+django = "^2.2.10"
+django-cors-headers = "^3.0.2"
+djangorestframework = "^3.10.1"
 pytz = "2019.3"
-sqlparse = "0.3.0"
+sqlparse = "^0.3.0"
 
 [tool.poetry.dev-dependencies]
 
