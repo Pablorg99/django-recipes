@@ -1,6 +1,6 @@
 astroid==2.3.3
 autopep8==1.4.4
-Django==2.2.13
+Django==2.2.20
 django-cors-headers==3.0.2
 djangorestframework==3.10.1
 isort==4.3.21
